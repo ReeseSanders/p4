@@ -30,7 +30,7 @@ void Interpreter::Interpret(){
     bool isChange = false;
     int indexer = 0;
     while(!isChange) {
-        unsigned int check = numPasses;
+        int check = numPasses;
 
         for (unsigned int i = 0; i < rules.size(); i++) {
 
